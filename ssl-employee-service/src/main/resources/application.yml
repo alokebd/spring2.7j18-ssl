@@ -1,0 +1,10 @@
+server:
+  port: 8081
+  ssl:
+    enabled: true
+    key-store: classpath:visiontech.jks
+    key-store-password: visiontech
+    key-store-type: PKCS12
+    key-alias: vision_ssl_key
+
+      
